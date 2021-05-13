@@ -7,29 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
     <title>NYC Taxi</title>
-    <link rel="icon" href="//res2.weblium.site/res/5fc01cbd3c57950022a1b16e/5fc7590d9a3f61002230cdc4_optimized">
+    <link rel="icon" href="img/logo.svg">
 </head>
 
 <body>
-    
+
     <header id="logo">
-            <div id="icons">
-                <a href="https://uk-ua.facebook.com/" target="_blank"><img src="img/logo_facebook.png"
-                        alt="facebook"></a>
-            </div>
-            <div id="icons">
-                <a href="https://www.instagram.com/" target="_blank"><img src="img/logo_instagrame.png"
-                        alt="instagram"></a>
-            </div>
-            <div id="icons">
-                <a href="https://www.youtube.com/" target="_blank"><img src="img/logo_youtube.png"
-                        alt="youtube"></a>
-             </div>
-            <hr>
-             <div class="logos">
-                <img  src="img/logo.svg" alt=" Logo">
-             </div>
-        <nav>
+        <div id="icons">
+
+            <a href="https://uk-ua.facebook.com/" target="_blank"><img src="img/logo_facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/logo_instagrame.png" alt="instagram"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="img/logo_youtube.png" alt="youtube"></a>
+            <a class="email" href="google.com">Email</a>
+        </div>
+        <hr>
+        <div class="logos">
+            <img src="img/logo.svg" alt=" Logo">
+        </div>
+        <nav class="manu">
             <a href="#our_fleet">Our Fleet</a>
             <a href="#about_us">About Us</a>
             <a href="#app">App</a>
@@ -40,8 +35,15 @@
         <div class="navagation">
             <h2>Book a Ride</h2>
             <form action="https://formspree.io/f/xleajrwe " method="POST">
-                <input name="phone_namber" type="text" placeholder="Phone namber"  required>
+                <input name="phone_namber" type="text" placeholder="Phone namber" required>
                 <input name="car_type" type="text" placeholder="Car Type" required>
+                <select>
+                    <option value="Comfort">Comfort</option>
+                    <option value="VAN">VAN</option>
+                    <option value="Luxary">Luxary</option>
+                    <option value="Sport">Sport</option>
+                </select>
+
                 <input name="travel_from" type="text" placeholder="Travel From" required>
                 <input name="travel_to" type="text" placeholder="Travel To" required>
                 <input name="pick_up_time" type="text" placeholder="Pick Up Time" required>
@@ -60,9 +62,10 @@
                 <button>Learn More</button>
             </form>
         </div>
+
     </header>
     <br><br>
-    <main>
+    <!--<main>
         <div class="class_taxi">
            
             <h4 id="our_fleet">Our Taxi Rates</h4>
@@ -197,4 +200,4 @@
     </footer>
 </body>
 
-</html>
+</html>   -->

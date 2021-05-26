@@ -59,3 +59,10 @@
     font-family: 'Heebo', sans-serif;
     font-size: 100%;
 }
+
+
+.products-carousel{
+    display: block;
+    text-align: center;
+    height: auto;
+}

@@ -4,3 +4,7 @@ clock.innerText = new Date().toLocaleTimeString();
 }
 
 setInterval(changeClock , 1000 );
+
+
+
+

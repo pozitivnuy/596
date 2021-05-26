@@ -23,7 +23,7 @@ function prevSlide() {
     if (currentSlide < 0) currentSlide = images.length - 1;
     showSlide();
 }
-
+showSlide();
 setInterval(nextSlide, 3000);
 
 document.querySelector('.carousel-prev').addEventListener('click', prevSlide);

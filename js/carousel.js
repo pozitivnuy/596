@@ -1,0 +1,1 @@
+const carousel = document.querySelector('.products-carousel')

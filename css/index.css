@@ -5,6 +5,26 @@
 
 
 }
+ /* .heading {
+    display: block;
+	min-width: 290px;
+	height: auto;
+	background: url(../img/firs_fon.webp) no-repeat;
+	background-size: cover;
+	padding: 100px 0; */
+ 
+.paralax {
+  background-image: url(../img/firs_fon.webp);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: auto;
+  color: var(--accent-color);
+  display: flex;
+  flex-direction: column;
+}
 
 * {
     padding: 0;
@@ -12,7 +32,7 @@
   }
 
   body {
-    max-width: 980px;
+    max-width : 980px;
     margin: auto;
   }
 
@@ -47,13 +67,11 @@
 }
 
 
-#logo {
+/*#logo {
     background-image:url(../img/firs_fon.webp);
     background-size: cover;
     background-position: center;
-
-
-}
+}*/
 .more{
 
     font-family: 'Heebo', sans-serif;

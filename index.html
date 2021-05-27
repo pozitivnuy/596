@@ -15,79 +15,83 @@
 <body>
 
     <header id="logo">
-        <div class="heading" >
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container">
-                    <a class="navbar-brand" href="#"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" href="#our_fleet">Our Fleet</a>
-                            <a class="nav-link" href="#about_us">About Us</a>
-                            <a class="nav-link" href="#app">App</a>
-                            <a class="nav-link" href="faq">FAQ</a>
-                            <a class="nav-link" href="contacts">Contacts</a>
-                            <div id="icons">
-                                <a class="email" href="google.com">Email</a>
-                                <a href="https://uk-ua.facebook.com/" target="_blank"><img src="img/logo_facebook.png"
-                                        alt="facebook"></a>
-                                <a href="https://www.instagram.com/" target="_blank"><img src="img/logo_instagrame.png"
-                                        alt="instagram"></a>
-                                <a href="https://www.youtube.com/" target="_blank"><img src="img/logo_youtube.png"
-                                        alt="youtube"></a>
-                                <a class="phone_number" href="tel:+1 (234) 567 89 00">+1 (234) 567 89 00</a>
+        <div class="paralax">
+            <div class="heading">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <div class="navbar-nav">
+                                <a class="nav-link active" href="#our_fleet">Our Fleet</a>
+                                <a class="nav-link" href="#about_us">About Us</a>
+                                <a class="nav-link" href="#app">App</a>
+                                <a class="nav-link" href="faq">FAQ</a>
+                                <a class="nav-link" href="contacts">Contacts</a>
+                                <div id="icons">
+                                    <a class="email" href="google.com">Email</a>
+                                    <a href="https://uk-ua.facebook.com/" target="_blank"><img
+                                            src="img/logo_facebook.png" alt="facebook"></a>
+                                    <a href="https://www.instagram.com/" target="_blank"><img
+                                            src="img/logo_instagrame.png" alt="instagram"></a>
+                                    <a href="https://www.youtube.com/" target="_blank"><img src="img/logo_youtube.png"
+                                            alt="youtube"></a>
+                                    <a class="phone_number" href="tel:+1 (234) 567 89 00">+1 (234) 567 89 00</a>
+                                </div>
                             </div>
                         </div>
+
                     </div>
-                    
-                </div>
-                <div class="logos">
-                    <a href="#heading"><img src="img/logo.svg" alt="logo"></a>
-                </div>
-                <div class="clock"></div>
-            </nav>
+                    <div class="logos">
+                        <a href="#heading"><img src="img/logo.svg" alt="logo"></a>
+                    </div>
+                    <div class="clock"></div>
+                </nav>
+            </div>
+
+            <!--Навігаційне меню , бургер почта і номер-->
+            <div class="form_car">
+                <h2>Book a Ride</h2>
+                <form action="https://formspree.io/f/xleajrwe " method="POST">
+                    <input name="phone_namber" type="text" placeholder="Phone namber" required>
+                    <select class="form-select">
+                        <option placeholder>Car type</option>
+                        <option value="Comfort">Comfort</option>
+                        <option value="VAN">VAN</option>
+                        <option value="Luxary">Luxary</option>
+                        <option value="Sport">Sport</option>
+                    </select>
+
+                    <input name="travel_from" type="text" placeholder="Travel From" required>
+                    <input name="travel_to" type="text" placeholder="Travel To" required>
+                    <input name="pick_up_time" type="text" placeholder="Pick Up Time" required>
+                    <input type="checkbox" required> By using this form you agree with the storage and handling of your
+                    data
+                    by this
+                    website.
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="more">
+                <h1>Your Reliable Taxi Service in NYC</h1>
+                <hr>
+                <h3>Taking your anywhere you need to go in a safe and timely manner.</h3>
+
+
+                <form action="#welcome">
+                    <button>Learn More</button>
+                </form>
+            </div>
         </div>
-        <!--Навігаційне меню , бургер почта і номер-->
-        <div class="form_car">
-            <h2>Book a Ride</h2>
-            <form action="https://formspree.io/f/xleajrwe " method="POST">
-                <input name="phone_namber" type="text" placeholder="Phone namber" required>
-                <select class="form-select">
-                    <option placeholder>Car type</option>
-                    <option value="Comfort">Comfort</option>
-                    <option value="VAN">VAN</option>
-                    <option value="Luxary">Luxary</option>
-                    <option value="Sport">Sport</option>
-                </select>
-
-                <input name="travel_from" type="text" placeholder="Travel From" required>
-                <input name="travel_to" type="text" placeholder="Travel To" required>
-                <input name="pick_up_time" type="text" placeholder="Pick Up Time" required>
-                <input type="checkbox" required> By using this form you agree with the storage and handling of your data
-                by this
-                website.
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-        <div class="more">
-            <h1>Your Reliable Taxi Service in NYC</h1>
-            <hr>
-            <h3>Taking your anywhere you need to go in a safe and timely manner.</h3>
-
-
-            <form action="#welcome">
-                <button>Learn More</button>
-            </form>
-        </div>
-
     </header>
     <br><br>
-    !--<main>
+    <main>
         <div class="class_taxi">
-           
+
             <h4 id="our_fleet">Our Taxi Rates</h4>
             <h2>Different Classes of Taxi Cabs for Your Comfort</h2>
             <hr>
@@ -100,7 +104,7 @@
             <br><br>
         </div>
         <div class="taxi_sevice">
-           
+
             <h3 id="about_us">Welcome to NYC Taxi</h3>
             <h2 id="welcome">A Taxi Service in NY You Can Trust</h2>
             <hr>
@@ -123,7 +127,7 @@
             <br><br>
         </div>
         <div class="book_in_smartphone">
-            
+
             <h4>Book from your smartphone</h4>
             <h2>Download Our App and Book Your Rides on the Go</h2>
             <h3>We are ready to pick you up 24/7!</h3>
@@ -134,9 +138,8 @@
             <br><br>
         </div>
         <div class="download" id="app">
-           
-            <img src="img/phone.webp"
-                alt="phone">
+
+            <img src="img/phone.webp" alt="phone">
             <h5 id="download">Go Mobile</h5>
             <h3>Take Advantage of Our App</h3>
             <hr>
@@ -153,58 +156,73 @@
             <br><br>
         </div>
         <div class="discount">
-            
+
             <h3>Get Your Discount 10% for Every 5th Ride</h3>
             <hr>
             <h5>The offer is valid only until the end of January.</h5>
 
         </div>
         <div class="feedback">
-            
+
             <h5 id="testimonials">Testimonials</h5>
             <h3>Clients' Feedback </h3>
             <hr>
             <h4>You can leave a review about the NYC Taxi service in our application for iOS and Android. This is what
                 our clients say about us. </h4>
-           
+
         </div>
         <div class="faq">
             <h3>Answering Your Questions </h3>
             <hr>
             <h5>If you have any questions about our taxi service, please contact us in any convenient way, and also read
                 the information below. </h5>
-            <div class="accordion accordion-flush" id="accordionFlushExample">  ACORDION
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-    </div>
-  </div>
-</div>
+            <div class="accordion accordion-flush" id="accordionFlushExample"> ACORDION
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Accordion Item #1
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
+                            body.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Accordion Item #2
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+                            body. Let's imagine this being filled with some actual content.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </main>
@@ -249,14 +267,16 @@
             </form>
             <a href="https://play.google.com/store" target="_blank">Google Play</a>
             <a href="https://www.apple.com/ua/app-store/" target="_blank">App Store</a>
-           
+
             <h6>© Created by</h6>
             <h6>All rights Reserved</h6>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
     <script src="js/carousel.js"></script>
 </body>
 
-</html>   
+</html>

@@ -1,4 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Roboto&display=swap');
+/*RESET*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0px solid var(--darkest-color);
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
 
 :root{
     font-family: 'Heebo', sans-serif;
@@ -11,54 +78,116 @@
     margin: 0;
   }
 
-  body {
-    max-width: 980px;
-    margin: auto;
+  .heading-bg{
+      display: block;
+      width: 100%;
+      height: 900px ;
+      background: url(../img/firs_fon.png) no-repeat; 
+      background-size: cover;
+      margin: 0 auto;
+      
   }
-
-#icons  {
-
-
-    display:flex;
-    justify-content: flex-end;
+  .dark-bg{
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 900px;
+      opacity: 0.5;
+  }
+ .containerr {
+     max-width: 1200px;
+     min-width: 290px;
+     margin: auto;
+     padding: 0 30px;
+ }
+    .top-info-block{
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+        background:rgb(000, 000,000,0.5) ;
+    }
+    .social-width{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .email {
+        display: flex;
+        width: auto;
+    }
+    .social-icons  {
+        display: flex;
+        width: auto;
+    }
+    .social-icons img {
+        width: 50px;
+    }
+ 
+.heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 16px 30px ;
 }
-#icons img {
-    width: 30px;
-    text-align: center;
 
-    width: 30px;   
-}
-
-. a {
-    text-decoration: none;
-    color: black;
-    display: inline;
-    justify-content:center;
-}
- .phone_number{
+.phone_number{
     display: flex;
-    justify-content:flex-end;
-    color: yellow;
-    text-transform: uppercase;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffc61a;
+    
 }
-.navagation {
-
-    display:flex;
+.phone_number a {
+    color: #ffc61a;
+    text-decoration: none;
+}
+.form-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.form_car {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background:#fff;
+    flex-direction: column;
+    padding: 20px;
+}
+.form_car input {
+    width: 390px;
+    height: 50px;
+    border: 1px solid grey;
+    margin: 10px 0 ;
+    padding: 0 0 0 10px;
+}
+.form_car input[type="checkbox"]{
+    width:10px;
+    height:10px;
+    
+}
+.form_car input[type="submit"]{
+background-color:#ffc61a ;
+}
+.form_car input[type="submit"]:hover{
+background-color:#000 ;
+color:#ffc61a ;
+transition: all 0.5s ease;
 }
 
 
-#logo {
-    background-image:url(../img/firs_fon.webp);
-    background-size: cover;
-    background-position: center;
 
+.logos img {
 
 }
-.more{
 
-    font-family: 'Heebo', sans-serif;
-    font-size: 100%;
-}
+
+
+
+
+
+
+
 
 
 .products-carousel{
@@ -66,3 +195,6 @@
     text-align: center;
     height: auto;
 }
+
+
+

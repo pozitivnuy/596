@@ -66,11 +66,10 @@ ul li {
 img {
 	vertical-align: top;
 }
+/* Вище початкова розмітка */
 
 :root{
     font-family: 'Heebo', sans-serif;
-
-
 }
 
 * {
@@ -85,7 +84,7 @@ img {
       background: url(../img/firs_fon.png) no-repeat; 
       background-size: cover;
       margin: 0 auto;
-      
+      background-attachment: fixed;   
   }
   .dark-bg{
       display: block;
@@ -104,7 +103,7 @@ img {
         width: 100%;
         height: auto;
         padding: 10px 0;
-        background:rgb(000, 000,000,0.5) ;
+        background:rgb(000, 000,000,0.3) ;
     }
     .social-width{
         display: flex;
@@ -114,13 +113,19 @@ img {
     .email {
         display: flex;
         width: auto;
+        text-decoration: none;
+        color:grey;
     }
+    
     .social-icons  {
         display: flex;
         width: auto;
+        
     }
     .social-icons img {
-        width: 50px;
+        width: 30px;
+        height: 30px;
+        
     }
  
 .heading {
@@ -128,6 +133,10 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 16px 30px ;
 }
+/* .navbar-light {
+   Колір нав бару , бустрап 
+    color:#fff;
+} */
 
 .phone_number{
     display: flex;
@@ -142,10 +151,12 @@ img {
     color: #ffc61a;
     text-decoration: none;
 }
+
 .form-info{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+
 .form_car {
     display: flex;
     width: 100%;
@@ -174,13 +185,45 @@ background-color:#000 ;
 color:#ffc61a ;
 transition: all 0.5s ease;
 }
+.form_car h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.line-firs{
+    margin-bottom: 20px;
+}
+.more h1 {
+    display: block;
+    color:#fff;
+    margin-bottom: 30px;
+    margin-right: 150px;
+    font-size: 60px;
+}
+.line-two{
+    margin-bottom: 30px;
+}
+.more h3 {
+    display: block;
+    color:grey;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.more a {
+    background-color:#ffc61a ;
+    width: auto;
+    border: 3px solid black;
+    height: 11%;
+    width: 40%;
+    font-size: 20px ;
+}
 
-
-
-/* .logos img {
-
-} */
-
+.more [type="submit"]:hover{
+    background-color:#000 ;
+    color:#ffc61a ;
+    transition: all 0.5s ease;
+    
+}
 
 
 

@@ -71,12 +71,10 @@ img {
 :root{
     font-family: 'Heebo', sans-serif;
 }
-
 * {
     padding: 0;
     margin: 0;
   }
-
   .heading-bg{
       display: block;
       width: 100%;
@@ -216,6 +214,7 @@ transition: all 0.5s ease;
     height: 11%;
     width: 40%;
     font-size: 20px ;
+    text-align: center;
 }
 
 .more [type="submit"]:hover{
@@ -223,21 +222,138 @@ transition: all 0.5s ease;
     color:#ffc61a ;
     transition: all 0.5s ease;
     
+    
 }
-
-
-
-
-
-
-
-
-
+#our_fleet {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: #ffc61a;
+}
+.class_taxi h2 {
+    display: flex;
+    justify-items: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.line-three{
+    display:block;  
+    margin-top: 30px;
+}
+.class_taxi h3 {
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-size: 20px;
+    margin-top: 30px;
+}
 .products-carousel{
     display: block;
     text-align: center;
     height: auto;
+    margin-top: 30px;
+}
+.taxi_service{
+    width: 100%;
+  height: 300px;
+  display: flex;
+  
+    
+    
+}
+.service-car #about_us{
+    color:#ffc61a ;
+    font-size: 16px;
+    margin-top: 100px;
+}
+#welcome{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service-opis {
+    color: grey;
+    font-weight: 400;
+    font-size: 17px;
+    
+}
+.taxi_sevice h4{
+    font-weight: 700;
+    
+}
+.service-car h5{
+    color: grey;
+    
+
+    
+}
+.service-car img{
+    width: 50px;
+    
+}
+
+.service-car{
+    display: block;
+      width: 100%;
+      height: 900px ;
+      background: url(../img/side_car.webp) ; 
+}
+
+.second-fon{
+    display: block;
+      background: url(../img/second_fon.webp) no-repeat; 
+      background-size: cover;
+      margin: 0 auto;
+      background-attachment: fixed;   
+      
+  }
+    .book_in_smartphone{
+        display: flex;
+        flex-direction: column;
+    }
+.book_in_smartphone h4 {
+    color: #ffc61a;
+    font-size: 20px;
+    font-weight: 400;  
+}
+.book_in_smartphone h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+}
+.color{
+    color: #ffc61a;
+}
+.book_in_smartphone h3{
+    color: #fff;
+    margin-top: 40px;
+}
+.book_in_smartphone button {
+    background-color:#ffc61a;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 30px;
+
+}
+.book_in_smartphone [class="download"]:hover{
+    background-color:#ffc61a;
+    background-color:#000 ;
+    color:#ffc61a ;
+    transition: all 0.5s ease;
 }
 
 
 
+
+/* 
+.form_car input[type="submit"]{
+    background-color:#ffc61a ;
+    }
+    .form_car input[type="submit"]:hover{
+    background-color:#000 ;
+    color:#ffc61a ;
+    transition: all 0.5s ease;
+    } */

@@ -71,6 +71,7 @@ img {
 :root{
     font-family: 'Heebo', sans-serif;
 }
+
 * {
     padding: 0;
     margin: 0;
@@ -96,6 +97,7 @@ img {
      min-width: 290px;
      margin: auto;
      padding: 0 30px;
+     font-family: 'Heebo', sans-serif;
  }
     .top-info-block{
         width: 100%;
@@ -103,6 +105,7 @@ img {
         padding: 10px 0;
         background:rgb(000, 000,000,0.3) ;
     }
+    
     .social-width{
         display: flex;
         justify-content: space-between;
@@ -117,12 +120,13 @@ img {
     
     .social-icons  {
         display: flex;
-        width: auto;
+        
         
     }
-    .social-icons img {
+    .social-icons svg {
         width: 30px;
         height: 30px;
+        margin-left: 10px;
         
     }
  
@@ -131,10 +135,15 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 16px 30px ;
 }
-/* .navbar-light {
-   Колір нав бару , бустрап 
-    color:#fff;
-} */
+#type-button{
+    border-color: #fff;
+}
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link  {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
 
 .phone_number{
     display: flex;
@@ -149,10 +158,12 @@ img {
     color: #ffc61a;
     text-decoration: none;
 }
+@media(min-width:768px){
+    .form-info{
+         display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    } 
 
-.form-info{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .form_car {
@@ -173,6 +184,7 @@ img {
 .form_car input[type="checkbox"]{
     width:10px;
     height:10px;
+    display: block;
     
 }
 .form_car input[type="submit"]{
@@ -216,13 +228,20 @@ transition: all 0.5s ease;
     font-size: 20px ;
     text-align: center;
 }
+#welcome {
+    color: #fff;
+    padding: 10px;
+}
+#welcomee{
+    color: black;
+    font-weight: 800;
+    font-size: 50px;
+}
 
 .more [type="submit"]:hover{
     background-color:#000 ;
     color:#ffc61a ;
     transition: all 0.5s ease;
-    
-    
 }
 #our_fleet {
     display: flex;
@@ -256,22 +275,17 @@ transition: all 0.5s ease;
 .taxi_service{
     width: 100%;
   height: 300px;
-  display: flex;
-  
-    
-    
+  display: grid;
+  grid-template-columns: 1fr;  
 }
+
 .service-car #about_us{
     color:#ffc61a ;
     font-size: 16px;
     margin-top: 100px;
 }
-#welcome{
-    font-weight: 700;
-    font-size: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
+
 .service-opis {
     color: grey;
     font-weight: 400;
@@ -279,8 +293,18 @@ transition: all 0.5s ease;
     
 }
 .taxi_sevice h4{
-    font-weight: 700;
+    color: grey;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
     
+}
+.taxi-car-service{
+    background-image: url(../img/side_car.webp) ; 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
 }
 .service-car h5{
     color: grey;
@@ -296,35 +320,49 @@ transition: all 0.5s ease;
 .service-car{
     display: block;
       width: 100%;
-      height: 900px ;
-      background: url(../img/side_car.webp) ; 
+      margin-bottom: 100px;
+     
+      max-width: 50%;
+      margin-top: 100px;
+      /* background: url(../img/side_car.webp) ;  */
 }
 
 .second-fon{
     display: block;
       background: url(../img/second_fon.webp) no-repeat; 
       background-size: cover;
-      margin: 0 auto;
-      background-attachment: fixed;   
+      background-attachment: fixed; 
+    
+        
+      /* margin: 100px 100px; */
       
+  }
+  .sse{
+    background: rgba(32, 32, 37, 0.85);
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
     .book_in_smartphone{
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
+        max-width: 65%;
     }
 .book_in_smartphone h4 {
     color: #ffc61a;
     font-size: 20px;
     font-weight: 400;  
+    
 }
 .book_in_smartphone h2 {
-    font-size: 40px;
+    font-size: 72px;
     font-weight: 700;
     color: #fff;
     margin-top: 20px;
 }
 .color{
     color: #ffc61a;
+    max-width: 70%;
 }
 .book_in_smartphone h3{
     color: #fff;
@@ -345,6 +383,70 @@ transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
+.download{
+    display: flex;
+    padding: 10px 20px;
+
+}
+.photo-phone img {
+    width: 70%;
+}
+#download{
+    
+    color:#ffc61a;
+    margin-top: 20px;
+}
+.download-app h3{
+    font-weight: 800;
+    font-size: 40px;
+}
+.download-app h4{
+    color: grey;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.2;
+}
+.download-app ul{
+    list-style-image: url("../img/galocka.svg");
+    font-size: 18px;
+    color: grey;
+    line-height: 2;
+    margin-top: 10px;
+}
+.download-app img {
+    width:  70%;;
+}
+.discount{
+    background: #ffc61a;
+}
+.discount-time h3{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-weight: 800;
+    font-size: 50px;
+}
+.line-five {
+    display: flex;
+    justify-items: center;
+    margin:10px 10px;
+}
+.discount-time h5{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+
+}
+.car-tipe-nyc img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
 
 
 
@@ -357,3 +459,66 @@ transition: all 0.5s ease;
     color:#ffc61a ;
     transition: all 0.5s ease;
     } */
+
+    .categories-carousel {
+        display: grid;
+
+    }
+    
+    @media (min-width: 768px) {
+        .categories-carousel {
+            display: grid;
+            grid-template-columns: 30px 650px 30px;
+            gap: 20px;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .categories-carousel {
+            grid-template-columns: 30px 850px 30px;
+        }
+    }
+    
+    @media (min-width: 1200px) {
+        .categories-carousel {
+            grid-template-columns: 35px 1000px 35px;
+        }
+    }
+    
+    .products {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        /* justify-content: space-between; */
+
+    
+    }
+    
+    .card-button {
+        font-size: 60px;
+        color:gray;
+        background: none;
+        border: none;
+    }
+    .car-categories{
+        background:#ffc61a;
+    }
+    .car-categories p {
+        padding-top: 20px;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    .car-categories img {
+        padding-top: 60px;
+        max-width: 100%;
+        margin: auto;
+        max-width:200px;
+    }
+    
+    .car-categories a {
+        padding: 15px 30px;
+        display: block;
+        margin: auto;
+    }

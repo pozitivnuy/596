@@ -31,41 +31,41 @@
 
  (function() {
   const categories = [`
-    <img src="img/car_typeb.svg" class="d-block w-100" alt="Sweet scents soap">
+    <img src="img/car_typeb.svg" class="d-block w-100" alt="VAN Car">
     <h3>VAN</h3>
-    <p class="notes">Initial Charge....</p>
-    <p class="notes">If you have a sweet tooth, you will love our fruit, candy, and other sweet-scent soap.</p>
-    <p class="notes">If you have a sweet tooth, you will love our fruit, candy, and other sweet-scent soap.</p>
-    <p class="notes">If you have a sweet tooth, you will love our fruit, candy, and other sweet-scent soap.</p>
-    <p class="notes">If you have a sweet tooth, you will love our fruit, candy, and other sweet-scent soap.</p>
-    <a href="#logo" class="button" >Order Now &#x27F6;</a>`,
+    <p class="notes"><b>Initial Charge....</b>$5.50</p>
+    <p class="notes"><b>Minimum Distance....</b>500m</p>
+    <p class="notes"><b>Standing time....</b>$1/minute</p>
+    <p class="notes"><b>Passengers....</b>8 max</p>
+    <p class="notes"><b>Booking in Advance....</b>$10</p>
+    <a id="welcomee" href="#logo" class="button" >Order Now </a>`,
 
-    `<img src="img/car_typec.svg" class="d-block w-100" alt="Herbal soap">
+    `<img src="img/car_typec.svg" class="d-block w-100" alt="Comfort Car">
     <h3>Comfort</h3>
-    <p class="notes">These soaps are for those who love the scent of lavander, juniper, and other herbs.</p>
-    <p class="notes">These soaps are for those who love the scent of lavander, juniper, and other herbs.</p>
-    <p class="notes">These soaps are for those who love the scent of lavander, juniper, and other herbs.</p>
-    <p class="notes">These soaps are for those who love the scent of lavander, juniper, and other herbs.</p>
-    <p class="notes">These soaps are for those who love the scent of lavander, juniper, and other herbs.</p>
-    <a href="#header" class="button" >Order Now  &#x27F6;</a>`,
+    <p class="notes"><b>Initial Charge....</b>$5.50</p>
+    <p class="notes"><b>Minimum Distance....</b>500m</p>
+    <p class="notes"><b>Standing time....</b>$1/minute</p>
+    <p class="notes"><b>Passengers....</b>4 max</p>
+    <p class="notes"><b>Booking in Advance....</b>$10</p>
+    <a id="welcomee" href="#header" class="button" >Order Now  </a>`,
 
-    `<img src="img/car_typef.svg" class="d-block w-100" alt="Problem skin soap">
+    `<img src="img/car_typef.svg" class="d-block w-100" alt="Sport Car">
     <h3>Sport</h3>
-    <p class="notes">The soap will help get rid of blackheads, as well as normalize the oil glands.</p>
-    <p class="notes">The soap will help get rid of blackheads, as well as normalize the oil glands.</p>
-    <p class="notes">The soap will help get rid of blackheads, as well as normalize the oil glands.</p>
-    <p class="notes">The soap will help get rid of blackheads, as well as normalize the oil glands.</p>
-    <p class="notes">The soap will help get rid of blackheads, as well as normalize the oil glands.</p>
-    <a href="#header" class="button" >Order Now  &#x27F6;</a>`,
+    <p class="notes"><b>Initial Charge....</b>$8.50</p>
+    <p class="notes"><b>Minimum Distance....</b>500m</p>
+    <p class="notes"><b>Standing time....</b>$2/minute</p>
+    <p class="notes"><b>Passengers....</b>3 max</p>
+    <p class="notes"><b>Booking in Advance....</b>$20</p>
+    <a id="welcomee" href="#header" class="button" >Order Now  </a>`,
 
-    `<img src="img/car_typel.svg" class="d-block w-100" alt="Sensitive skin soap">
+    `<img src="img/car_typel.svg" class="d-block w-100" alt="Luxury Car">
     <h3>Luxury</h3>
-    <p class="notes">We have special soaps for especially delicate skin that requires gentle care.</p>
-    <p class="notes">We have special soaps for especially delicate skin that requires gentle care.</p>
-    <p class="notes">We have special soaps for especially delicate skin that requires gentle care.</p>
-    <p class="notes">We have special soaps for especially delicate skin that requires gentle care.</p>
-    <p class="notes">We have special soaps for especially delicate skin that requires gentle care.</p>
-    <a href="#header" class="button" >Order Now  &#x27F6;</a>
+    <p class="notes"><b>Initial Charge....</b>$10</p>
+    <p class="notes"><b>Minimum Distance....</b>500m</p>
+    <p class="notes"><b>Standing time....</b>$3/minute</p>
+    <p class="notes"><b>Passengers....</b>3 max</p>
+    <p class="notes"><b>Booking in Advance....</b>$20</p>
+    <a id="welcomee" href="#header" class="button" >Order Now  </a>
     
  ` ];
 let currentIdx = 0;

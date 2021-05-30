@@ -60,9 +60,9 @@ a:visited {
 a:hover {
 	text-decoration: none;
 }
-ul li {
+/* ul li {
 	list-style: none;
-}
+} */
 img {
 	vertical-align: top;
 }
@@ -115,7 +115,7 @@ img {
         display: flex;
         width: auto;
         text-decoration: none;
-        color:grey;
+        color:#a9a9a9;
     }
     
     .social-icons  {
@@ -177,7 +177,7 @@ img {
 .form_car input {
     width: 390px;
     height: 50px;
-    border: 1px solid grey;
+    border: 1px solid #a9a9a9;
     margin: 10px 0 ;
     padding: 0 0 0 10px;
 }
@@ -215,7 +215,7 @@ transition: all 0.5s ease;
 }
 .more h3 {
     display: block;
-    color:grey;
+    color:#a9a9a9;
     margin-bottom: 40px;
     font-size: 20px;
 }
@@ -262,7 +262,7 @@ transition: all 0.5s ease;
 .class_taxi h3 {
     display: flex;
     justify-content: center;
-    color: grey;
+    color: #a9a9a9;
     font-size: 20px;
     margin-top: 30px;
 }
@@ -287,13 +287,13 @@ transition: all 0.5s ease;
 
 
 .service-opis {
-    color: grey;
+    color: #a9a9a9;
     font-weight: 400;
     font-size: 17px;
     
 }
 .taxi_sevice h4{
-    color: grey;
+    color: #a9a9a9;
     font-weight: 400;
     font-size: 20px;
     margin-top: 20px;
@@ -307,7 +307,7 @@ transition: all 0.5s ease;
     background-position: center;
 }
 .service-car h5{
-    color: grey;
+    color: #a9a9a9;
     
 
     
@@ -386,7 +386,7 @@ transition: all 0.5s ease;
 .download{
     display: flex;
     padding: 10px 20px;
-
+    
 }
 .photo-phone img {
     width: 70%;
@@ -401,7 +401,7 @@ transition: all 0.5s ease;
     font-size: 40px;
 }
 .download-app h4{
-    color: grey;
+    color: #a9a9a9;
     font-weight: 300;
     font-size: 20px;
     margin-top: 20px;
@@ -410,28 +410,33 @@ transition: all 0.5s ease;
 .download-app ul{
     list-style-image: url("../img/galocka.svg");
     font-size: 18px;
-    color: grey;
+    color: #a9a9a9;
     line-height: 2;
     margin-top: 10px;
+    
 }
 .download-app img {
     width:  70%;;
 }
 .discount{
-    background: #ffc61a;
+    background-color:#ffc61a;
+}
+.discount img{
+    size: 500px;
 }
 .discount-time h3{
     display: flex;
     justify-content: center;
     color: #000;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 70px;
 }
 .line-five {
     display: flex;
     justify-items: center;
     margin:10px 10px;
 }
+
 .discount-time h5{
     display: flex;
     justify-content: center;
@@ -443,22 +448,175 @@ transition: all 0.5s ease;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    margin-bottom: 50px;
     width: 80%;
 }
+.start-feadback{
+    background-color:#202025;
+}
+.statistic{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    
+}
+.statistic h2{
+    margin-top: 60px;
+    color: #ffc61a;
+    font-weight: 800;
+    font-size: 80px;
+}
+.statistic h4{
+    color: gray;
+    margin-top: 10px;
+    font-weight: 700;
+    
+}
+.feedback-bg{
+    background-color:#202025;
+}
+.feedback{
+    display: block;
+    text-align: center;
+}
+.feedback h5{
+    color: #ffc61a;
+    font-weight: 600;
+    font-size: 20px;
+}
+.feedback h3{
+    color: #fff;
+    font-weight: 800;
+    font-size: 50px;
+} 
+.feedback h4{
+    color: gray;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
 
+}   
+.faq-bg{
+    background-color:#202025;
+}
+.faq{
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.faq h4{
+    color: #ffc61a;
+    margin-bottom:20px ;
+}
+.faq h3{
+    font-weight: 800;
+    font-size: 50px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.faq h5 {
+    font-weight: 600;
+    font-size: 20px;
+    color: gray;
+    margin-top: 30px;
+}
+.bg-footer-contacts{
+    background-color:#ffc61a;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.footer-contacts{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
 
-
-
-/* 
-.form_car input[type="submit"]{
+.contact_info h3 {
+    font-size: 30px;
+    font-weight: 1000;
+    margin-top: 30px; 
+}
+.contact_info h5{
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.contact_socials h3{
+    font-size: 30px;
+    font-weight: 1000;
+    margin-top: 30px; 
+}
+.contact_email h3{
+    font-size: 30px;
+    font-weight: 1000;
+    margin-top: 30px; 
+}
+.contact_email h5{
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.bg-footer{
+    background-color:#202025;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.footer-final{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.logo-text h5{
+    color: #a9a9a9;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.about-company h3{
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+}
+.about-company a {
+    color: #a9a9a9;
+}
+.for-drivers-foter h3{
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+}
+.for-drivers-foter a {
+    color: #a9a9a9;
+}
+/* .for-drivers-foter a:hover{
+    color: #ffc61a;
+} */
+.receive-foter h3{
+ color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+}
+.receive-foter a {
+    color: #a9a9a9;
+}
+.receive-foter  input[type="submit"]{
     background-color:#ffc61a ;
+    padding: 15px 50px 15px 50px;
     }
-    .form_car input[type="submit"]:hover{
+    .receive-foter input[type="submit"]:hover{
     background-color:#000 ;
     color:#ffc61a ;
     transition: all 0.5s ease;
-    } */
+    }
+
+.copirate{
+    background-color:black;
+}
+.text-copirate{
+    display: flex;
+    justify-content: space-between;
+    color: #a9a9a9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 
     .categories-carousel {
         display: grid;
@@ -502,14 +660,21 @@ transition: all 0.5s ease;
     }
     .car-categories{
         background:#ffc61a;
+        margin-top: 40px;
+    }
+    .car-categories h3{
+        font-size: 40px;
+        font-weight: 900;
+        color: black;
     }
     .car-categories p {
         padding-top: 20px;
         margin: auto;
         text-align: center;
         padding-bottom: 30px;
+        font-size: 20px;
+        font-weight: 500;
     }
-    
     .car-categories img {
         padding-top: 60px;
         max-width: 100%;

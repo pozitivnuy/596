@@ -430,6 +430,7 @@ transition: all 0.5s ease;
     color: #000;
     font-weight: 800;
     font-size: 70px;
+    padding-top: 120px;
 }
 .line-five {
     display: flex;
@@ -482,6 +483,7 @@ transition: all 0.5s ease;
     color: #ffc61a;
     font-weight: 600;
     font-size: 20px;
+    padding-top: 150px;
 }
 .feedback h3{
     color: #fff;
@@ -506,6 +508,7 @@ transition: all 0.5s ease;
 .faq h4{
     color: #ffc61a;
     margin-bottom:20px ;
+    padding-top: 150px;
 }
 .faq h3{
     font-weight: 800;
@@ -518,15 +521,27 @@ transition: all 0.5s ease;
     font-weight: 600;
     font-size: 20px;
     color: #a9a9a9;
-    /* margin-top: 30px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.accordion-item button{
+    background-color:#202025;
+    color:#fff;
+
+}
+.accordion-button:not{
+    background-color:none;
+    
 }
 .accordion-body{
-   
+    padding-top: 30px;
+    padding-bottom: 40px;
     color: #a9a9a9;
     background-color:#202025;
 }
 .accordion-flush{
     background-color:black;
+    
 }
 .bg-footer-contacts{
     background-color:#ffc61a;
@@ -625,7 +640,8 @@ transition: all 0.5s ease;
     padding-bottom: 10px;
 }
 
-
+    /* Карусель категорій */
+    
     .categories-carousel {
         display: grid;
 
@@ -694,4 +710,71 @@ transition: all 0.5s ease;
         padding: 15px 30px;
         display: block;
         margin: auto;
+    }
+    
+    /* Карусель фідбеків */
+    .categories-carousel-feed {
+        display: grid;
+
+    }
+    
+    @media (min-width: 768px) {
+        .categories-carousel-feed {
+            display: grid;
+            grid-template-columns: 30px 650px 30px;
+            gap: 20px;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .categories-carousel-feed {
+            grid-template-columns: 30px 850px 30px;
+        }
+    }
+    
+    @media (min-width: 1200px) {
+        .categories-carousel-feed {
+            grid-template-columns: 35px 1000px 35px;
+        }
+    }
+    
+    .products-feed {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        /* justify-content: space-between; */
+
+    
+    }
+    
+    .card-button {
+        font-size: 60px;
+        color:#a9a9a9;
+        background: none;
+        border: none;
+    }
+    .feed-categories{
+        
+        background:rgba(255, 255, 255, 0.03);;
+        margin-top: 40px;
+    }
+    .feed-categories h3{
+        font-size: 30px;
+        font-weight: 900;
+        color: #fff;
+    }
+    .feed-categories p {
+        padding-top: 20px;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: 20px;
+        font-weight: 500;
+        color:#a9a9a9;
+    }
+    .feed-categories img {
+        padding-top: 60px;
+        max-width: 100%;
+        margin: auto;
+        max-width:150px;
     }

@@ -466,7 +466,7 @@ transition: all 0.5s ease;
     font-size: 80px;
 }
 .statistic h4{
-    color: gray;
+    color: #a9a9a9;
     margin-top: 10px;
     font-weight: 700;
     
@@ -489,7 +489,7 @@ transition: all 0.5s ease;
     font-size: 50px;
 } 
 .feedback h4{
-    color: gray;
+    color: #a9a9a9;
     font-size: 25px;
     font-weight: 400;
     margin-top: 20px;
@@ -517,8 +517,16 @@ transition: all 0.5s ease;
 .faq h5 {
     font-weight: 600;
     font-size: 20px;
-    color: gray;
-    margin-top: 30px;
+    color: #a9a9a9;
+    /* margin-top: 30px; */
+}
+.accordion-body{
+   
+    color: #a9a9a9;
+    background-color:#202025;
+}
+.accordion-flush{
+    background-color:black;
 }
 .bg-footer-contacts{
     background-color:#ffc61a;
@@ -654,7 +662,7 @@ transition: all 0.5s ease;
     
     .card-button {
         font-size: 60px;
-        color:gray;
+        color:#a9a9a9;
         background: none;
         border: none;
     }

@@ -1,2 +1,2 @@
-# Taxi full site
+# Taxi site
 https://pozitivnuy.github.io/596/
